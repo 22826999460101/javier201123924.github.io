@@ -1,0 +1,47 @@
+body{
+    background-image: url("atitlan.jpg");
+    background-size: cover;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#principal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;   
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    /* margin: 10px auto; */
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+hr{
+    border: 3px solid orange;
+    width: 50px ;
+    max-width: 80px;
+    transition: all 1s;
+}
+
+hr:hover{
+    transform:scaleX(1.4);
+}
+
+.btn-outline-primary{
+
+    width: 100px;
+    padding: 5px 5px;
+    font-weight: 700;
+    background-color:white; 
+    margin: 20px 0;
+    transition: all 1s; 
+}
+.btn-outline-primary:hover {
+    transform: scale(1.1);
+}
